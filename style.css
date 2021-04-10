@@ -108,10 +108,14 @@ header .menu .btn a:hover {
 }
 
 .home-text .ani-text {
-    text-transform: uppercase;
+    text-transform: lowercase;
     margin-top: 30px;
-    font-size: 50px;
+    font-size: 70px;
     position: relative;
+}
+
+#one {
+    color: white;
 }
 
 #two{
@@ -125,6 +129,10 @@ header .menu .btn a:hover {
 .home-text .ani-text span {
     display: inline-block;
 }
+
+/* .home-text .ani-text #one, #two, #three {
+    position: absolute;
+} */
 
 .apil {
     color: #FCFF59;
