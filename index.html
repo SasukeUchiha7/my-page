@@ -24,7 +24,7 @@
             <li><a href="#">Projects</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
-						<li class="btn"><a href="#">Hire</a></li>
+            <li class="btn"><a href="#">Hire</a></li>
           </ul>
         </div>
       </header>
@@ -37,10 +37,38 @@
           <div class="home-text">
             <h5 class="hi">Hi, there!</h5>
             <h1 class="name">I'am <span class="apil">Apil</span></h1>
-            <h6 class="student">Student | Full Stack Developer | Android Developer</h6>
+            <h6 class="student">
+              Student | Full Stack Developer | Android Developer
+            </h6>
+            <h3 class="ani-text">
+              <span id='one'>Code.</span>
+              <span id="two">Develop.</span>
+              <span id="three">Design.</span>
+            </h3>
           </div>
         </div>
       </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+    <script>
+      // let header = document.querySelector(".ani-text");
+      // header.innerHTML = header.innerText
+      //   .split("")
+      //   .map(function (char) {
+      //     return "<span>" + char + "</span>";
+      //   })
+      //   .join("");
+      // // console.log(header.innerHTML);
+
+      // anime.timeline({ loop: false }).add({
+      //   targets: ".ani-text span",
+      //   translateY: ["50px", 0],
+			// 	opacity:[0,1],
+			// 	easing:"easeInOutSine",
+			// 	delay: function(el,i){ return i*300},
+      // });
+    </script>
   </body>
 </html>
