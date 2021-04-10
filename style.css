@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body {
+    background-color: #000;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* HEADER */
+header {
+    padding: 40px 50px;
+}
+
+header .logo {
+    float: left;
+}
+
+header .menu {
+    float: right;
+}
+
+header .menu ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+header .menu ul li:last-child {
+    margin-right: 0;
+}
+
+header .menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    transition:all ease 0.5s;
+}
+
+header .menu ul li a:hover {
+    color: #FCFF59;
+}
+
+/* HEADER BUTTON */
+
+header .menu .btn a{
+    background-color: #FCFF59;
+    color: #000;
+    padding: 5px 10px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+}
+
+header .menu .btn a:hover {
+    background-color:#000;
+}
+
+/* CONTAINER */
+
+.home .container {
+    max-width: 1266;
+    margin: 0 40px;
+
+}
+
+.home .poster img {
+    width: 450px;
+    height: 600px;
+    filter:opacity(.8)
+}
+
+.home .container .poster {
+    float: right;
+    width: 650px;
+    border-radius: 70px 70px 0;
+    overflow: hidden;
+    margin: 70px 70px 0;
+    border-color: #FCFF59;
+}
+
+/* TEXT */
+
+.home-text {
+    color: #fff;
+    margin-top: 220px;
+    position: absolute;
+}
+
+.home-text h5 {
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-family: 'Nunito',sans-serif;
+}
+
+.home-text h1 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 100px;
+}
+.home-text h6 {
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 200;
+    letter-spacing: 5px;
+}
+
+.apil {
+    color: #FCFF59;
+}
