@@ -55,75 +55,75 @@
     <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
     <script>
-      // let header = document.querySelector("#one");
-      // header.innerHTML = header.innerText
-      //   .split("")
-      //   .map(function (char) {
-      //     return "<span>" + char + "</span>";
-      //   })
-      //   .join("");
-      // let header1 = document.querySelector("#two");
-      // header1.innerHTML = header1.innerText
-      //   .split("")
-      //   .map(function (char) {
-      //     return "<span>" + char + "</span>";
-      //   })
-      //   .join("");
-      // let header2 = document.querySelector("#three");
-      // header2.innerHTML = header2.innerText
-      //   .split("")
-      //   .map(function (char) {
-      //     return "<span>" + char + "</span>";
-      //   })
-      //   .join("");
-      // // console.log(header.innerHTML);
-      // // $(document).ready(function () {
-      // //   $(".one").lettering();
-      // // });
-      // anime
-      //   .timeline({ loop: false })
-      //   .add({
-      //     targets: "#one span",
-      //     translateY: ["50px", 0],
-      //     opacity: [0, 1],
-      //     easing: "easeOutElastic(.2)",
-      //     delay: anime.stagger(200),
-      //   })
-      //   .add({
-      //     targets: "#one span",
-      //     translateY: [0, "50px"],
-      //     opacity: [1, 0],
-      //     easing: "easeInElastic(.5)",
-      //     delay: anime.stagger(200),
-      //   })
-      //   .add({
-      //     targets: "#two span",
-      //     translateY: ["50px", 0],
-      //     opacity: [0, 1],
-      //     easing: "easeOutElastic(.2)",
-      //     delay: anime.stagger(200),
-      //   })
-      //   .add({
-      //     targets: "#two span",
-      //     translateY: [0, "50px"],
-      //     opacity: [1, 0],
-      //     easing: "easeInElastic(.5)",
-      //     delay: anime.stagger(200),
-      //   })
-      //   .add({
-      //     targets: "#three span",
-      //     translateY: ["50px", 0],
-      //     opacity: [0, 1],
-      //     easing: "easeOutElastic(.2)",
-      //     delay: anime.stagger(200),
-      //   })
-      //   .add({
-      //     targets: "#three span",
-      //     translateY: [0, "50px"],
-      //     opacity: [1, 0],
-      //     easing: "easeInElastic(.5)",
-      //     delay: anime.stagger(200),
-      //   });
+      let header = document.querySelector("#one");
+      header.innerHTML = header.innerText
+        .split("")
+        .map(function (char) {
+          return "<span>" + char + "</span>";
+        })
+        .join("");
+      let header1 = document.querySelector("#two");
+      header1.innerHTML = header1.innerText
+        .split("")
+        .map(function (char) {
+          return "<span>" + char + "</span>";
+        })
+        .join("");
+      let header2 = document.querySelector("#three");
+      header2.innerHTML = header2.innerText
+        .split("")
+        .map(function (char) {
+          return "<span>" + char + "</span>";
+        })
+        .join("");
+      // console.log(header.innerHTML);
+      // $(document).ready(function () {
+      //   $(".one").lettering();
+      // });
+      anime
+        .timeline({ loop: false })
+        .add({
+          targets: "#one span",
+          translateY: ["50px", 0],
+          opacity: [0, 1],
+          easing: "easeOutElastic(.2)",
+          delay: anime.stagger(200),
+        })
+        .add({
+          targets: "#one span",
+          translateY: [0, "50px"],
+          opacity: [1, 0],
+          easing: "easeInElastic(.5)",
+          delay: anime.stagger(200),
+        })
+        .add({
+          targets: "#two span",
+          translateY: ["50px", 0],
+          opacity: [0, 1],
+          easing: "easeOutElastic(.2)",
+          delay: anime.stagger(200),
+        })
+        .add({
+          targets: "#two span",
+          translateY: [0, "50px"],
+          opacity: [1, 0],
+          easing: "easeInElastic(.5)",
+          delay: anime.stagger(200),
+        })
+        .add({
+          targets: "#three span",
+          translateY: ["50px", 0],
+          opacity: [0, 1],
+          easing: "easeOutElastic(.2)",
+          delay: anime.stagger(200),
+        })
+        .add({
+          targets: "#three span",
+          translateY: [0, "50px"],
+          opacity: [1, 0],
+          easing: "easeInElastic(.5)",
+          delay: anime.stagger(200),
+        });
     </script>
   </body>
 </html>
